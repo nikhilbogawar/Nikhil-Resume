@@ -1,0 +1,292 @@
+<!DOCTYPE html> <!-- Declares HTML5 document -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Profile</title>
+    
+    <!-- Basic inline CSS in the <style> tag to enhance the look -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Clean, readable font */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light grey background */
+        }
+        header {
+            background-color: #d6b149; /* Dark navy bar */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            border-radius: 50%; /* Makes the image circular */
+            display: block;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #ebae09;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        /* Section Headings */
+#education h2,
+#experience h2,
+#skills h2,
+#certifications h2,
+#achievements h2 {
+    color: #ebae09;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Tables in Education */
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#education th,
+#education td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Lists in other sections */
+#experience ul,
+#skills ul,
+#certifications ul,
+#achievements ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#experience li,
+#skills li,
+#certifications li,
+#achievements li {
+    margin-bottom: 8px;
+}
+    </style>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Bogawar Nikhil</h1>
+        <p>Web Developer | Technology Enthusiast | AIML</p>
+        <!-- Navigation Menu -->
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- ABOUT ME SECTION -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture" width="150">
+            <p>
+                Final-year B. Tech Computer Science and Engineering student with a strong foundation in programming and problem-solving along with Planning. Skilled in Python basics with academic experience in core computer science concepts. Enthusiastic about applying technical knowledge to real-world projects, eager to learn new technologies, and motivated to contribute effectively in software development and Project management software.
+            </p>
+        </section>
+
+                <!-- EDUCATION SECTION -->
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>B.Tech</th>
+                    <td>Computer Science and Engineering</td>
+                </tr>
+                <tr>
+                    <th>Institute</th>
+                    <td>Bharat Institute of Engineering & Technology, Hyderabad</td>
+                </tr>
+                <tr>
+                    <th>Expected Graduation</th>
+                    <td>May 2026</td>
+                </tr>
+                <tr>
+                    <th>CGPA</th>
+                    <td>8.0 / 10</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Diploma</th>
+                    <td>Mechanical Engineering</td>
+                </tr>
+                <tr>
+                    <th>College</th>
+                    <td>S.G. Govt. Polytechnic, Adilabad</td>
+                </tr>
+                <tr>
+                    <th>Completed</th>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <th>CGPA</th>
+                    <td>8.8 / 10</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>School</th>
+                    <td>SSC</td>
+                </tr>
+                <tr>
+                    <th>School Name</th>
+                    <td>T.S.Model School, Adilabad</td>
+                </tr>
+                <tr>
+                    <th>Completed</th>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <th>CGPA</th>
+                    <td>9.3 / 10</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- INTERNSHIPS & HACKATHONS SECTION -->
+        <section id="experience">
+            <h2>Academic Projects & Hackathons</h2>
+            <ul>
+                <li>Accident Prediction Using Machine Learning</li>
+                <li>Farmer’s Connect: Crop & Fertilizer Recommendation with Plant Disease Identification</li>
+                <li>AI-based Internship Recommendation Engine for PM Internship Scheme</li>
+                <li>Smart Classroom & Timetable Scheduler</li>
+                <li>Paperless Scholarship Disbursement System for PMSSS</li>
+            </ul>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <h2>Technical Skills & Soft Skills</h2>
+            <ul>
+                <li>Full-Stack Development: HTML, CSS, JavaScript, Python</li>
+                <li>Data Analytics: Python, Pandas, Tableau</li>
+                <li>Machine Learning: Image recognition, model integration, real-world deployment</li>
+                <li>Project Management & Documentation: structured reporting</li>
+                <li>Technical Skills: Software Proficiency, Scheduling, Engineering Design, Project Management Software</li>
+                <li>Soft Skills: Problem-Solving, Teamwork & collaboration, Communication Skills, Leadership, Time Management, Quick Learner</li>
+            </ul>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Completed Virtual Internship on Microsoft AI Azure conducted by AICTE & Edunet Foundation-2025</li>
+                <li>Certified in Finishing School for Employability – ICT Academy – Infosys Foundation 2025</li>
+                <li>Certified in Python Basics – PR Software</li>
+                <li>Certified in C Basics – PR Software</li>
+            </ul>
+        </section>
+
+        <!-- ACHIEVEMENTS SECTION -->
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Shortlisted in Top 5 teams at Smart India Hackathon 2025 </li>
+                <li>Participated in Smart India Hackathon 2024</li>
+            </ul>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies">
+            <h2>My Hobbies & Interests</h2>
+            <ul>
+                <li>Reading tech blogs and novels</li>
+                <li>Playing indoor games</li>
+                <li>Arts and Designs</li>
+                <li>Photography</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT INFORMATION TABLE -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <table>
+                <tr>
+                    <th>Email</th>
+                    <td>tejasnikhil72@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>+91 9381383166</td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Hyderabad, Telangana</td>
+                </tr>
+            </table>
+
+            <!-- Links to Social Profiles -->
+            <p style="margin-top: 15px;">
+                <strong>Find me online:</strong><br>
+                <a href="https://www.linkedin.com/in/nikhil-bogawar-970003324/" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/nikhilbogawar" target="_blank">GitHub</a> | 
+            </p>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2025 Bogawar Nikhil. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
